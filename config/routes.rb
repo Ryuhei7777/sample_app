@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'lists/new'
-  #get '/top' => 'homes#top'
+  get '/top' => 'homes#top'
   #post 'lists'=>'lists#create'
   #get 'lists' => 'lists#index'
    # .../lists/1 や .../lists/3 に該当する
